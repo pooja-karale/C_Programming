@@ -7,7 +7,7 @@
 //  Input        :  Integer (Area in Square Feet)
 //  Output       :  Double (Area in Square Meter)
 //  Description  :  Convert Square Feet into Square Meter
-//  Date         :  02/11/2026
+//  Date         :  01/11/2026
 //  Author       :  Karale Pooja Subhash
 //
 ///////////////////////////////////////////////////
@@ -22,7 +22,6 @@ double SquareMeter(int iValue)
 }
 int main()
 {
-
     int iValue = 0;
     double dRet = 0.0;
 
@@ -34,4 +33,5 @@ int main()
     printf("Area in square Meter : %lf\n",dRet);
 
     return EXIT_SUCCESS;
+
 }
